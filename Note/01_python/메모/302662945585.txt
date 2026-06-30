@@ -9,7 +9,7 @@
 and _ 비교연산자
 >,^,<_논리연산자
 
-
+주석_ctrl /
 
 id:admin
 password : pass
@@ -22,4 +22,17 @@ replace()_가장 중요한 수식
 
 코딩 전용 글꼴 : D2Coding / 나눔고딕 코딩 글꼴
 
+
+해외 애들 도시락 가방_지퍼백
+이클립스_배 비파형
+패퍼민트 티백
+빅데이터 분석기사
+
+for문 _ - for - in - if -
+
+for 00 in zz = zz를 담아서 00을 출력해라
+
+uphand? _ 업핸드? 올리기인가??
+
+sorted?
 
