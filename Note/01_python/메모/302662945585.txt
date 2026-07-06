@@ -20,6 +20,7 @@ replace()_가장 중요한 수식
 
 코딩 전용 글꼴 : D2Coding / 나눔고딕 코딩 글꼴
 
+lambda식은 map할 때만 사용
 
 해외 애들 도시락 가방_지퍼백
 이클립스_배 비파형
@@ -39,7 +40,7 @@ sorted?
 오버로딩
 커텐션 마크?
 인폴트
-렉시컬? 특징?
+렉시컬_lexical_코드가 작성된 위치
 스칼라 변수?
 인자? 가 뭐야?
 lst? 리스트가 뭐야?
@@ -70,12 +71,24 @@ lambda?
 int
 isinstans
 get
-
-
-
-
-
-
+split
+round
+integer
+is_integer
+filter_template
+int
+아스트레이크?
+아스트리크
+funtion
+인터프린터
+바이너리 컴퓨터
+IDE tool(jupyter notebook)
+메모리 로드
+인폴트
+- m : 모듈
+로드
+pip
+objgraph
 
 
 
@@ -96,8 +109,9 @@ ctrl + / _주석만들기_풀기
 
 
 
-컴 단축키
+[ 컴 단축키 ]
 ctrl + arlt + del : 작업관리자창 뜸
+tab하고 싶은것들 다 잡아서 tab치면 됨.
 
 
 
@@ -108,7 +122,8 @@ ctrl + arlt + del : 작업관리자창 뜸
 
 
 
-
+[ code 창 단축키 ]
+ctrl + j _터미널 창 띄우기
 
 
 

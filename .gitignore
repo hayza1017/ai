@@ -2,3 +2,5 @@ Downloads/
 lecNote/
 .ipynb_checkpoints/
 __pycache__/
+.vscode\
+.venv\
