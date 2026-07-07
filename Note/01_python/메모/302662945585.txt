@@ -89,6 +89,18 @@ IDE tool(jupyter notebook)
 로드
 pip
 objgraph
+<br> _ 다음줄로 내려감
+import
+언어테이션 = @
+인스턴스
+로직
+
+
+
+
+
+
+
 
 
 
@@ -106,7 +118,7 @@ ctrl + shift
 
 ctrl + f _ 검색어 찾기
 ctrl + / _주석만들기_풀기
-
+alt + L 
 
 
 [ 컴 단축키 ]
