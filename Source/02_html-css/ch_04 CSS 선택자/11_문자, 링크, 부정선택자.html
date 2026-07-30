@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #wrap{width: 750px; margin:0 auto;}
+        #header{
+            border: 1px solid gray;
+            text-align:center;
+        }
+        #content{
+            padding:0 10px;
+            text-align:justify;/*양쪽 정렬*/
+        }
+        #content p:nth-child(2)::first-line,
+        #content p:nth-child(3)::first-line{/*문자선택자*/
+            color: royalblue;
+            font-weight:bold;
+            font-size:20px;
+        }
+        #content p:nth-child(2)::first-letter{font-size: 2em; /*원래 크기의 2배*/}
+        #content p:nth-child(3) span{font-size:2em;}
+        #content a{text-decoration:none; color:forestgreen; font-size: 1.5em;}
+        #content a::after{
+            content:'-' attr(href);
+        }
+        #content li:not(.web) a{/*부정선택자*/
+            background-color:pink;
+        }
+        #footer ul{
+            border-top:1px solid gray;
+            overflow:hidden;
+        }
+        #footer ul li{
+            float:left;
+            list-style:none;
+            padding:15px;
+        }
+        #footer ul li:first-child{padding-top:30px;}
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <h1>MOSTER주식회사</h1>
+        </div>
+        <div id="content">
+            <p>괴물 도시를 움직이는 에너지원은 어린이들의 비명소리?!</p>
+            <p>괴물 세계의 주된 에너지원은 인간 어린이들로부터 채집해온 비명소리이다. 가장 뛰어난 겁주기 선수들로 구성된 몬스터 주식회사는 그와 같은 소중한 비명을 채집하는 일을 전담하는 회사이다.괴물들한테 한 가지 치명적인 문제가 있다면 인간 어린이들이 자신들에게 맹독성 독을 감염시킬 수 있다는 것이다. 그래서 괴물들은 어린이와 접촉해서는 절대로 안 된다.어린 인간 소녀 부가 우연히 설리를 따라 괴물 세계에 들어오자 설리는 자신의 경력은 물론 자신의 인생이 끝장날 수 있다는 것을 깨닫게 된다.</p>
+            <p><span>결</span>국, 설리는 마이크의 도움을 빌어서 자신의 실수를 만회할 수 있는 방법을 찾는다. 그러나 설리와 마이크, 그리고 부는 그들이 상상조차 하지 못했던 복잡한 모험의 세계로 빠져들게 된다.</p>
+            <ul>
+                <li><a href="https://cine21.com/movie/info/?movie_id=5836" target="_blank">몬스터</a></li>
+                <li class="web"><a href="http://www.goolge.com">구글</a></li>
+                <li><a href="http://www.naver.com" target="_blank">네이버</a></li>
+                <li><a href="http://www.daum.met" target="_blank">다음</a></li>
+            </ul>
+        </div>
+        <div id="footer">
+            <ul>
+                <li><img src="ch04/logo.png" /></li>
+                <li><img src="ch04/address.png" /></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
