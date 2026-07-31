@@ -3,9 +3,9 @@ lecNote/
 T/
 .ipynb_checkpoints/
 __pycache__/
-.vscode\
-.venv\
-.vs\
+.vscode/
+.venv/
+.vs/
 
 
 

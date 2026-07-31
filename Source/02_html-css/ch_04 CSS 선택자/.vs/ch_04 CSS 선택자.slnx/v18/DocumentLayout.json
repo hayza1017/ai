@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\ai\\Source\\02_html-css\\ch_04 CSS \uC120\uD0DD\uC790\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai\\Source\\02_html-css\\ch_04 CSS \uC120\uD0DD\uC790\\\uC608\uC2DC\uBB38\uC81C.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:\uC608\uC2DC\uBB38\uC81C.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai\\Source\\02_html-css\\ch_04 CSS \uC120\uD0DD\uC790\\07_\uB3D9\uC704\uC120\uD0DD\uC790.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:07_\uB3D9\uC704\uC120\uD0DD\uC790.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai\\Source\\02_html-css\\ch_04 CSS \uC120\uD0DD\uC790\\11_\uBB38\uC790, \uB9C1\uD06C, \uBD80\uC815\uC120\uD0DD\uC790.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:11_\uBB38\uC790, \uB9C1\uD06C, \uBD80\uC815\uC120\uD0DD\uC790.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 112,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "07_\uB3D9\uC704\uC120\uD0DD\uC790.html",
-              "DocumentMoniker": "C:\\ai\\Source\\02_html-css\\ch_04 CSS \uC120\uD0DD\uC790\\07_\uB3D9\uC704\uC120\uD0DD\uC790.html",
-              "RelativeDocumentMoniker": "07_\uB3D9\uC704\uC120\uD0DD\uC790.html",
-              "ToolTip": "C:\\ai\\Source\\02_html-css\\ch_04 CSS \uC120\uD0DD\uC790\\07_\uB3D9\uC704\uC120\uD0DD\uC790.html",
-              "RelativeToolTip": "07_\uB3D9\uC704\uC120\uD0DD\uC790.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-07-30T08:41:16.367Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
@@ -40,6 +35,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{2d7728c2-de0a-45b5-99aa-89b609dfde73}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\uC608\uC2DC\uBB38\uC81C.html",
+              "DocumentMoniker": "C:\\ai\\Source\\02_html-css\\ch_04 CSS \uC120\uD0DD\uC790\\\uC608\uC2DC\uBB38\uC81C.html",
+              "RelativeDocumentMoniker": "\uC608\uC2DC\uBB38\uC81C.html",
+              "ToolTip": "C:\\ai\\Source\\02_html-css\\ch_04 CSS \uC120\uD0DD\uC790\\\uC608\uC2DC\uBB38\uC81C.html",
+              "RelativeToolTip": "\uC608\uC2DC\uBB38\uC81C.html",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-07-30T10:59:33.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "11_\uBB38\uC790, \uB9C1\uD06C, \uBD80\uC815\uC120\uD0DD\uC790.html",
+              "DocumentMoniker": "C:\\ai\\Source\\02_html-css\\ch_04 CSS \uC120\uD0DD\uC790\\11_\uBB38\uC790, \uB9C1\uD06C, \uBD80\uC815\uC120\uD0DD\uC790.html",
+              "RelativeDocumentMoniker": "11_\uBB38\uC790, \uB9C1\uD06C, \uBD80\uC815\uC120\uD0DD\uC790.html",
+              "ToolTip": "C:\\ai\\Source\\02_html-css\\ch_04 CSS \uC120\uD0DD\uC790\\11_\uBB38\uC790, \uB9C1\uD06C, \uBD80\uC815\uC120\uD0DD\uC790.html",
+              "RelativeToolTip": "11_\uBB38\uC790, \uB9C1\uD06C, \uBD80\uC815\uC120\uD0DD\uC790.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-07-30T10:17:25.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "07_\uB3D9\uC704\uC120\uD0DD\uC790.html",
+              "DocumentMoniker": "C:\\ai\\Source\\02_html-css\\ch_04 CSS \uC120\uD0DD\uC790\\07_\uB3D9\uC704\uC120\uD0DD\uC790.html",
+              "RelativeDocumentMoniker": "07_\uB3D9\uC704\uC120\uD0DD\uC790.html",
+              "ToolTip": "C:\\ai\\Source\\02_html-css\\ch_04 CSS \uC120\uD0DD\uC790\\07_\uB3D9\uC704\uC120\uD0DD\uC790.html",
+              "RelativeToolTip": "07_\uB3D9\uC704\uC120\uD0DD\uC790.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-07-30T08:41:16.367Z",
+              "EditorCaption": ""
             }
           ]
         }

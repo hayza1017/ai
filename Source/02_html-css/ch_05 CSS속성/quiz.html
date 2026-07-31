@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #container{
+            border:1px solid gray;
+            width:1000px; height:900px; margin:0 auto;
+            text-align:center;
+        }
+        div{
+            border:1px solid red; margin: 10px;
+        }
+        #header, #footer{
+            font-size:30px; font-weight:bold;
+            background-color: yellow;
+            height:120px; line-height:120px;
+        }
+        #nav{height:150px;}
+        #nav li>a{
+            color:purple; 
+            text-decoration-line:none;
+            font-size:20px; font-weight:bold;
+        }
+        #nav ul li{
+            overflow:hidden; float:left;
+            padding:12px 50px; margin:3px;
+            background-color:lightpink;
+        }
+        #nav ul li:first-child {border-radius:30px 0 0 30px;}
+        #nav ul li:last-child {border-radius: 0 30px 30px 0;}
+        #section {
+            border: 1px solid gray;
+            width: 980px; height:450px;
+        }
+        #section #content{
+            float:left; width:733px;
+            height:430px;
+        }
+        #section #banner {
+            float: right;
+            width: 200px;
+            height: 430px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">HEADER</div>
+            <!--<img src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/bf0e8c77-e590-4772-a56a-13941dbeb80c/trim?format=webp&max=800%7C300" alt="moster" />-->
+        <div id="nav">
+            <h2>NAVICATION</h2>
+            <ul>
+                <li><a href="#menu1">menu1</a></li>
+                <li><a href="#menu2">menu2</a></li>
+                <li><a href="#menu3">menu3</a></li>
+                <li><a href="#menu4">menu4</a></li>
+                <li><a href="#menu4">menu5</a></li>
+            </ul>
+        </div>
+        <div id="section">
+            <div id="content">
+                <h2>CONTENT</h2>
+            </div>
+            <div id="banner">
+                <h2>BANNER</h2>
+            </div>
+        </div>
+        <div id="footer">FOOTER</div>
+    </div>
+</body>
+</html>

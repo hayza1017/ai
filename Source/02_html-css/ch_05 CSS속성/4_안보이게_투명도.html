@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #visibility>div, #dispaly>div{
+            width:100px; height:100px; background-color:cadetblue;
+        }
+        /*안보이게_반응형 앱으로 만들때 필요함.*/
+        #visibility div:nth-child(2){visibility:hidden;}/*안보이게(공간확보)*/
+        #dispaly div:nth-child(2){display:none;}/*안보이고 공간 삭제*/
+        /*0(투명)<=투명도(opacity)<=1(불투명_기본값)*/
+        #visibility div:last-child{opacity:.1;}
+        #dispaly div:first-child{opacity:.5;}
+    </style>
+</head>
+<body>
+    <div id="visibility">
+        <div>기본을 불투명</div>
+        <div>안보이게</div>
+        <div>거의 투명하게</div>
+    </div>
+    <div id="dispaly">
+        <div>반투명</div>
+        <div>안보이게(display)</div>
+        <div>불투명</div>
+    </div>
+</body>
+</html>

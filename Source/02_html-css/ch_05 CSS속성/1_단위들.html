@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #container {
+            width:500px; margin: 0 auto;
+            border:1px solid gray;
+            padding:10px;
+            text-align:justify; /*양쪽정렬*/
+        }
+        #container p:nth-child(2n+1){background-color:pink;}
+        #container p:nth-child(1){font-size:.8em;/*pxtoem*/}
+        #container p:nth-child(2){font-size:100%; /*기본사이즈: 16px*/}
+        #container p:nth-child(3){font-size:24px; }
+        #container p:nth-child(4){font-size: 24pt; /*3pt = 4px*/}
+        span{
+            display:block;/*display속성을 block으로 수정하면 block형 태그로 전환*/
+            color:darkslategray;
+            font-size:.5em;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <p>
+            ‘심해 3000m 아래의 해저기지에서 재난 상황이 닥쳤을 때
+            <span>개봉일 2021. 05. 11</span>
+        </p>
+        <p>
+            주인 없는 애완 고양이와 뱀을 발견할 경우,
+            의식을 잃은 아이를 발견할 경우,
+            처음 보는 사람이 갇혔다고 도와 달라고 할 경우,
+            당신을 도와준 사람이 다쳤을 경우,
+            술 먹고 잠든 사람들을 발견했을 경우,
+            당신이 혐오하는 사람과 만났을 경우,
+            <span>입력 2001. 11. 02</span>
+        </p>
+        <p>
+            당신은 어떻게 행동할 것인가.’
+            <span>입력 2001. 11. 02</span>
+        </p>
+        <p>
+            3000m 아래 해저기지에 치과의사로 입사한 지 닷새 만에 물이 새기 시작한다. 각종 사고와 재난이 벌어지는 깊은 바닷속, 등불 같은 한 사람의 이야기.
+            <span>입력 2001. 11. 02</span>
+        </p>
+    </div>
+</body>
+</html>
+ 
