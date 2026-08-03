@@ -1,0 +1,13 @@
+! + enter : html 탬플릿
+
+
+shft + alt +아래 화살표 : 윗줄 복사
+ctrl + shift + k : 한줄 지우기
+alt + 위아래 화살표 : 줄의 위아래가 바뀜.
+alt + L+O : 화면 실행
+ctrl + space : 자동
+ctrl + / : 주석처리
+
+
+검색
+html_설정
