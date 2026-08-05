@@ -24,5 +24,11 @@ console.log('6.variable 타입 :', typeof(variable), '-값:', variable);
 variable = null; //null은 타입이 object
 console.log('7.variable 타입 :', typeof(variable), '-값:', variable);
 
-variable = Object;
+variable = {'name':'홍길동', 'age':20}; //객체
 console.log('8.variable 타입 :', typeof(variable), '-값:', variable);
+
+variable = ['홍길동', 20, function(){}, true, [1 ,2], {'name':'홍길동'}]; //배열
+console.log('9.variable 타입 :', typeof(variable), '-값:', variable);
+
+// variable = []; //배열
+// console.log('10.variable 타입 :', typeof(variable), '-값:', variable);

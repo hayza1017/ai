@@ -1,5 +1,5 @@
 ! + enter : html 탬플릿
-
+shift +tab : 들여쓰기
 
 shft + alt +아래 화살표 : 윗줄 복사
 ctrl + shift + k : 한줄 지우기
