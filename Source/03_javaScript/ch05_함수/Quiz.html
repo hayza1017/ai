@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+    <title></title>
+    <style>
+    body{
+        background-size: 100%;
+        font-size: 2.5em;
+        background-image: url(ch05_img/img01.png);
+        color: yellow;
+    }
+    </style>
+    <script>
+        // img01.png(주황색), img02.png(파란색), img03.png(흰색)
+        let sec = 0; //몇초가 지났는지 저장하는 변수
+        const color = ['yellow', 'blue', 'white'];
+        const img = ['url(ch05_img/img01.png)',
+                    'url(ch05_img/img02.png)',
+                    'url(ch05_img/img03.png)'];
+    // 아래 함목들을 1초에 한번씩 실행함
+        document.write(`${new Date().toLocaleString()} <br> ${sec}초 지남`);
+        // 1초마다 타이머 구동(sec증가)        
+        var id = setInterval(() => {
+            sec++;
+            // 1초마다 타이머 구동(시간출력)   
+            document.body.innerHTML = new Date().toLocaleString() + '<br>'  +sec + '초 지남';
+            // 1초마다 타이머 구동(백그라운드 이미지 변경)
+            document.body.style.backgroundImage = img[sec%3];
+            // 1초마다 타이머 구동(글씨 색상 변경)        
+            document.body.style.color = color[sec%3];
+        }, 1000);
+        //10초후 타이머 정지
+        setTimeout(() => {
+            clearInterval(id);
+        }, 10000);
+
+        //  document.body.style = `background-image: url(${img[sec%3]})`;
+        //  ues_document.body.style.backgroundImage = img[sec%3];
+        //  ues_document.body.style.color = color[sec%3];
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
