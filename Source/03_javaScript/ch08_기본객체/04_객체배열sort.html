@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+    <title></title>
+    <script>
+    // 생성자함수
+    function Student(name, kor, mat, eng){
+        this.name = name;
+        this.kor = kor;
+        this.mat = mat;
+        this.eng = eng;
+    }
+    //메소드는 prototype에 추가
+    Student.prototype.getSum = function(){
+        return this.kor + this.mat + this.eng;
+    };
+    Student.prototype.getAvg = function(){
+//            return Math.round(this.getSum() / 3*10)/10 ; // 소수점 첫번째자리에서 반올림
+        return (this.getSum()/3).toFixed(1); // 고정소수점 한자리만 나타내기
+        };
+        Student.prototype.toString = function(){
+            let output = '';
+            for(let key in this){
+                if(key!='getSum' && key!='getAvg' && key!='toString'){
+                    output += key + ':' + this[key] +' &nbsp; ';
+                }else if (key=='getSum' || key=='getAvg'){
+                    output += key.substring(3).toUpperCase() + ':' + this[key]() + ' &nbsp; ';
+                }
+            }
+            return output;
+        };
+        let students = [new Student('홍길동', 90, 99, 91)];
+        students.push(new Student('김길동', 99, 60, 100));
+        students.push(new Student('고길동', 73, 82, 49));
+        students.push(new Student('동길동', 93, 77, 66));
+        students.push(new Student('손길동', 39, 56, 49));
+        students.forEach(function(data){});
+        students.forEach(data => document.write(data + '<br>'));
+        students.sort(); // toString()결과를 ascii코드 오름차순으로 정렬
+        document.write('<h3>이름 순 정렬</h3>');
+        students.forEach(data => document.write(data + '<br>'));
+        // 총점 기준으로 내림차순 정렬
+        students.sort((left, right)=>{
+            return right.getSum()-left.getSum();
+        });
+        // 정렬된 데이터 출력
+        document.write('<h3>공부 잘하는 순서</h3>');
+        students.forEach(data => document.write(data + '<br>'));
+        // top3만 추출해서 출력
+        let top3 = students.slice(0, 3); 
+        document.write('<h3>Top3</h3>');
+        top3.forEach(data => document.write(data + '<br>'));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

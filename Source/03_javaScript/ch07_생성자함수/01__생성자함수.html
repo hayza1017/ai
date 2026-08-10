@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+    <title></title>
+    <script>
+        // 생성자 함수
+        function Student(name, kor, mat, eng){
+            this.name = name;
+            this.kor = kor;
+            this.mat = mat;
+            this.eng = eng;
+            this.getSum = function(){
+                return this.kor + this.mat + this.eng;
+            };
+            this.getAvg = function(){
+                return Math.round(this.getSum() / 3) ;
+            };
+            this.toString = function(){
+                let output = '';
+                for(let key in this){
+                    if(key!='getSum' && key!='getAvg' && key!='toString'){
+                        output += key + ':' + this[key] +' &nbsp; ';
+                    }else if (key=='getSum' || key=='getAvg'){
+                        output += key.substring(3).toUpperCase() + ':' + this[key]() + ' &nbsp; ';
+                    }
+                }
+                return output;
+            };
+        }
+        //s = new Person('홍길동', 20, 90, 10);
+        let students = [];
+        students.push(new Student('홍길동', 20, 90, 10));
+        students.push(new Student('홍길동', 20, 90, 10));
+        students.push(new Student('홍길동', 20, 90, 10));
+        students.push(new Student('홍길동', 20, 90, 10));
+        students.push(new Student('홍길동', 20, 90, 10));
+        students.forEach(element => document.write(element +'<br>'));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
