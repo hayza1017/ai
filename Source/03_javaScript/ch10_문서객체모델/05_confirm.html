@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+    <title></title>
+    <style>
+        
+    </style>
+    <script>
+        var id;
+        window.onload = () =>{
+            openerId = opener.document.getElementById('id').value;
+            var showName = document.querySelector('id');
+        };
+        const sendData = (part) => {
+            opener.document.getElementById('id').innerHTML = part;
+            window.close();
+        }
+    </script>
+</head>
+<body>
+    <p>
+        ID <input type="text" name="id">
+        <button>채크</button>
+    </p>
+    <p>
+        <button onclick="confirmOK()">아이디 사용</button>
+    </p>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <style>
+        h1{cursor: pointer;}
+        span:nth-child(1){color: red;}
+        span:nth-child(2){color: orange;}
+        span:nth-child(3){color: yellow;}
+        span:nth-child(4){color: green;}
+        span:nth-child(5){color: skyblue;}
+        span:nth-child(6){color: blue;}
+        span:nth-child(7){color: purple;}
+    </style>
+    <script>
+        var cnt = 0;
+        window.onload = () => {
+            document.querySelector('h1').onclick = function(){
+                this.innerHTML += '<span>♥</span>';
+                cnt ++; //클릭한 횟수
+                if(cnt>=7){ // 이벤트는 7번만 실행후 이벤트 제거
+                    this.onclick = null; // 이벤트 제거
+                }
+            };
+        };
+    </script>
+</head>
+<body>
+    <h1>좋아요</h1>
+</body>
+</html>

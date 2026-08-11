@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+    <title></title>
+    <style>
+        
+    </style>
+    <script>
+        const openConfirm = ()=>{
+            var child = open('05_confirm.html', '', 'width=500, height=600, left=600');
+            if(!child){
+                alert('팝업해제');
+            }
+        };
+    </script>
+</head>
+<body>
+    <form>
+        <p>
+            아이디 <input type="text" name="id" id="id">
+            <input type="button" value="중복확인" onclick="openConfirm()">
+        </p>
+        <input type="submit" value="회원가입">
+    </form>
+</body>
+</html>
