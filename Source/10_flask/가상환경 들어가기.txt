@@ -1,0 +1,9 @@
+- ctrl + j 터미널에서 가상환경 만들기 → vscode에서 만들기
+    * 가상환경 만들기 : python -m venv .venv
+    * 가상환경 들어가기 : .venv\Scripts\activate
+    * pip 업그레이드 : python -m pip install --upgrade pip
+    * ipynb 파일 새로 만들기 : ex1_회귀모델 저장
+    * pip install statsmodels joblib flask
+
+    * pip freeze > requirement.txt
+    * requirements.txt받은 측 : pip install -r requirements.txt
