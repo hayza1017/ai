@@ -8,7 +8,7 @@ __pycache__/
 .env
 IDE/
 09_Project/
-
+.vercel/
 
 Jupyter Notebook.lnk
 Visual Studio Code.lnk
