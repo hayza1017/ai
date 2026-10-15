@@ -1,0 +1,22 @@
+{
+  "renames": {
+    "C:\\ai\\Source\\07_LLM\\ch9.01_vectorEmbeddingModel성능비교.ipynb": "C:\\ai\\Source\\07_LLM\\ch09.1_vectorEmbeddingModel성능비교.ipynb",
+    "C:\\ai\\Source\\07_LLM\\ch9.02_ChatOpenAI와 렝체인을 활용한 검증.ipynb": "C:\\ai\\Source\\07_LLM\\ch09.2_ChatOpenAI와 렝체인을 활용한 검증.ipynb",
+    "C:\\ai\\Source\\07_LLM\\ch9.03_ChatUpstageAI와 렝체인을 활용한 검증.ipynb": "C:\\ai\\Source\\07_LLM\\ch09.3_ChatUpstageAI와 렝체인을 활용한 검증.ipynb",
+    "C:\\ai\\Source\\07_LLM\\ch9.04_ChatOllama와 렝체인을 활용한 검증.ipynb": "C:\\ai\\Source\\07_LLM\\ch09.4_ChatOllama와 렝체인을 활용한 검증.ipynb",
+    "C:\\ai\\Source\\07_LLM\\ch9.05_vectorStore저장없이 RAG구현.ipynb": "C:\\ai\\Source\\07_LLM\\ch09.5_vectorStore저장없이 RAG구현.ipynb",
+    "C:\\ai\\Source\\07_LLM\\ch9_06_LangChain과 vectorDatabase(파일)를 활용한 RAG구현.ipynb": "C:\\ai\\Source\\07_LLM\\ch09.6_LangChain과 vectorDatabase(파일)를 활용한 RAG구현.ipynb",
+    "C:\\ai\\Source\\07_LLM\\ch9_07_LangChain과 vectorDatabase(파일)를 활용한 RAG구현(upstage).ipynb": "C:\\ai\\Source\\07_LLM\\ch09.7_LangChain과 vectorDatabase(파일)를 활용한 RAG구현(upstage).ipynb",
+    "C:\\ai\\Source\\07_LLM\\ch9_08_chroma→pinecone을 활용한 RAG구현(upstage embedding).ipynb": "C:\\ai\\Source\\07_LLM\\ch09.8_chroma→pinecone을 활용한 RAG구현(upstage embedding).ipynb",
+    "C:\\ai\\Source\\07_LLM\\ch9_09_pinecone을 활용한 RAG구현(openai API embedding).ipynb": "C:\\ai\\Source\\07_LLM\\ch09.9_pinecone을 활용한 RAG구현(openai API embedding).ipynb",
+    "C:\\ai\\Source\\07_LLM\\ch9_10_RAG효율개선을위한전처리(table).ipynb": "C:\\ai\\Source\\07_LLM\\ch09.10_RAG효율개선을위한전처리(table).ipynb",
+    "C:\\ai\\Source\\07_LLM\\ch9_복습_Pinecone_따라하기.ipynb": "C:\\ai\\Source\\07_LLM\\ch09_복습_Pinecone_따라하기.ipynb"
+  },
+  "reference_backups": {
+    "C:\\ai\\Source\\07_LLM\\LLM_9장_학습순서.md": "C:\\ai\\_정리_백업\\07_LLM_중복정리_20261015\\이름변경_20261015\\LLM_9장_학습순서.md",
+    "C:\\ai\\Source\\07_LLM\\LLM_수업영상_확인과_남은실습.md": "C:\\ai\\_정리_백업\\07_LLM_중복정리_20261015\\이름변경_20261015\\LLM_수업영상_확인과_남은실습.md",
+    "C:\\ai\\lecNote\\07_LLM\\환경비교_GPU_안내.md": "C:\\ai\\_정리_백업\\07_LLM_중복정리_20261015\\이름변경_20261015\\환경비교_GPU_안내.md",
+    "C:\\ai\\Source\\07_LLM\\ch9_10_RAG효율개선을위한전처리(table).ipynb": "C:\\ai\\_정리_백업\\07_LLM_중복정리_20261015\\이름변경_20261015\\ch9_10_RAG효율개선을위한전처리(table).ipynb",
+    "C:\\ai\\Source\\07_LLM\\ch9_복습_Pinecone_따라하기.ipynb": "C:\\ai\\_정리_백업\\07_LLM_중복정리_20261015\\이름변경_20261015\\ch9_복습_Pinecone_따라하기.ipynb"
+  }
+}
